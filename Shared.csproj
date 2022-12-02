@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="6.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.10" />
+    <PackageReference Include="NETCore.Encrypt" Version="2.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\img\1.jpg" />
+    <None Include="wwwroot\css\img\10.jpg" />
+    <None Include="wwwroot\css\img\11.jpeg" />
+    <None Include="wwwroot\css\img\12.jpeg" />
+    <None Include="wwwroot\css\img\13.jpeg" />
+    <None Include="wwwroot\css\img\14.jpeg" />
+    <None Include="wwwroot\css\img\15.jpeg" />
+    <None Include="wwwroot\css\img\16.jpeg" />
+    <None Include="wwwroot\css\img\17.jpeg" />
+    <None Include="wwwroot\css\img\18.jpeg" />
+    <None Include="wwwroot\css\img\19.jpg" />
+    <None Include="wwwroot\css\img\2.jpeg" />
+    <None Include="wwwroot\css\img\3_.png" />
+    <None Include="wwwroot\css\img\4.jpeg" />
+    <None Include="wwwroot\css\img\5.jpeg" />
+    <None Include="wwwroot\css\img\6.jpeg" />
+    <None Include="wwwroot\css\img\7.jpeg" />
+    <None Include="wwwroot\css\img\8.jpeg" />
+    <None Include="wwwroot\css\img\9.jpeg" />
+    <None Include="wwwroot\css\img\booklogo.jpeg" />
+    <None Include="wwwroot\css\img\f-1.jpeg" />
+    <None Include="wwwroot\css\img\f-2.jpg" />
+    <None Include="wwwroot\css\img\f-t-1.webp" />
+    <None Include="wwwroot\css\img\f-t-1_.jpeg" />
+    <None Include="wwwroot\css\img\f-t-2.jpeg" />
+    <None Include="wwwroot\css\img\logo.png" />
+    <None Include="wwwroot\css\img\logo0.webp" />
+    <None Include="wwwroot\css\img\logo1.jpeg" />
+    <None Include="wwwroot\css\img\pp_avatar.png" />
+  </ItemGroup>
+
+</Project>
